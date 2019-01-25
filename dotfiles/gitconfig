@@ -1,0 +1,18 @@
+
+
+[alias]
+	alias = config --get-regexp "^alias."
+	amend = commit --amend --no-edit
+	branches = branch -a
+	remotes = remote -v
+	staged = diff --staged
+	who = blame
+
+[commit]
+	template = ~/dotfiles/commit-message
+
+[core]
+	whitespace = blank-at-eol,space-before-tab,-blank-at-eof
+	excludesfile=~/dotfiles/gitignore
+
+

@@ -1,0 +1,16 @@
+Subject line
+
+Describe what you did and why. This is usually anywhere from a couple of
+sentences and to a paragraph. If you have to write more than that, there is
+probably too much in this one commit and you should probably divide it into
+smaller commits.
+
+#________________________________________________@______________________
+#
+#   * Limit the subject line to 50 characters
+#   * Wrap the body at 72 characters
+#   * Capitalize the subject line
+#   * Do not end the subject line with a period
+#   * Write the subject line to sound like an authoritative command
+#   * Use the body to explain what and why vs. how
+#
