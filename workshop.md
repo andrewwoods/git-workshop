@@ -125,11 +125,11 @@ Once your on a branch, make your edits and do your normal `add` and `commit` com
 
 ### Merging Branches
 
-Merging a branch allows you to combine your  work, with the work from others. If you created your branch from master.
+Merging a branch allows you to combine your  work, with the work from others. If you created your branch from `master`.
 
 ```bash
 $ git checkout master
-$ git merge branchname
+$ git merge <branchname>
 
 ```
 
@@ -158,13 +158,6 @@ Send your local commits to the remote
 $ git push <remote> <branch>
 ```
 
-
-## Workflow
-
-### Feature Branches
-
-
-## Controlling Commits
 
 
 ## Configuration
