@@ -97,9 +97,43 @@ Just like `add`, you'll run `commit` after removing a file.
 
 ## Branches
 
+A branch is a workspace. They keep your work separate from your fellow contributors. Branches are a fundamental skill, that makes it possible to use other more advanced git commands.
+
+
 ### Creating Branches
 
+Create a branch named `awesome`
+
+```bash
+$ git branch awesome
+```
+
+Switch to the `awesome` branch
+
+```bash
+$ git checkout awesome
+```
+
+You can do both steps with one command
+
+```bash
+$ git checkout -b awesome
+```
+
+Once your on a branch, make your edits and do your normal `add` and `commit` commands discussed above.
+
+
 ### Merging Branches
+
+Merging a branch allows you to combine your  work, with the work from others. If you created your branch from master.
+
+```bash
+$ git checkout master
+$ git merge branchname
+
+```
+
+Sometimes when performing a merge, you can get an error called **merge conflict** because git gets confused about how it should handle the change.
 
 
 ## Working With Others
