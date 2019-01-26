@@ -86,6 +86,14 @@ $ git diff --name-only
 
 ## Removing Content
 
+Remove a file from the project
+
+```bash
+$ git rm filename.txt
+```
+
+Just like `add`, you'll run `commit` after removing a file.
+
 
 ## Branches
 
