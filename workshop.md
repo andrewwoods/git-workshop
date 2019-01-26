@@ -140,7 +140,23 @@ Sometimes when performing a merge, you can get an error called **merge conflict*
 
 ### Creating Remotes
 
+```bash
+$ git remote add <shortname> <url>
+```
+
 ### Interacting With Remotes
+
+List remotes in your project
+
+```bash
+$ git remote -v
+```
+
+Send your local commits to the remote
+
+```bash
+$ git push <remote> <branch>
+```
 
 
 ## Workflow
