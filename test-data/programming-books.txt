@@ -1,0 +1,12 @@
+Clean Code
+Dreaming in Code
+Lean Software Development
+Modern PHP
+Modernizing Legacy Applications
+Mythical Man Month
+Pragmatic Unit Testing
+Pro Git
+The Pragmatic Programmer
+UML Distilled
+Version Control with Git
+

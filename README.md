@@ -22,3 +22,8 @@ Move  the gitconfig file to your home directory
 $ mv gitconfig ~/.gitconfig
 ```
 
+## Test Data
+
+Within this repo, is a directory `test-data` containing test data. This is
+available to help you learn Git's commands.
+
